@@ -1,0 +1,60 @@
+.container {
+  background: #ffffff;
+  width: 400px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.panicButton {
+  background: #ff1e1e;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.25s;
+  font-weight: bold;
+}
+
+.panicButton:hover {
+  background: #cc0000;
+  transform: translateY(-4px);
+}
+.logoutButton {
+  margin-top: 20px;
+  background: #555;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.logoutButton:hover {
+  background: #333;
+}
+.card, .container {
+  margin: auto;
+}
+.card, .container {
+  max-width: 420px;
+  width: 100%;
+}
