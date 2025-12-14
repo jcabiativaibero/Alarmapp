@@ -14,7 +14,9 @@ function Login({ onLogin }) {
   return (
     <div className="card">
       <h2 className="title">Ingreso</h2>
-      <p className="subtitle">Ingrese su correo electrónico para activar el botón de pánico</p>
+      <p className="subtitle">
+        Ingrese su correo para activar el botón de pánico
+      </p>
 
       <form onSubmit={handleSubmit}>
         <input

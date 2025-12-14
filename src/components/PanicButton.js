@@ -9,8 +9,10 @@ function PanicButton({ email, onLogout }) {
 
   return (
     <div className="container">
-      <h1 className="heading">Botón de Pánico Comunitario</h1>
-      <p className="text">Presiona el botón solo en caso de emergencia</p>
+      <h1 className="heading">Botón de Pánico</h1>
+      <p className="text">
+        Presione el botón únicamente en caso de emergencia
+      </p>
 
       <button className="panicButton" onClick={handleAlert}>
         🚨 Enviar Alerta

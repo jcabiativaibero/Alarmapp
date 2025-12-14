@@ -1,11 +1,15 @@
-body, html {
+html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #ffffff, #e6e9ff);
 }
 
 #root {
+  height: 100%;
+}
+
+.app-container {
   height: 100%;
   display: flex;
   justify-content: center;

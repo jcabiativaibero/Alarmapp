@@ -1,6 +1,6 @@
 .card {
   background: #ffffff;
-  width: 350px;
+  width: 360px;
   padding: 30px;
   border-radius: 18px;
   text-align: center;
@@ -9,7 +9,6 @@
 
 .title {
   font-size: 26px;
-  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -41,12 +40,4 @@
 
 .btn:hover {
   background-color: #003fad;
-}
-
-.card, .container {
-  margin: auto;
-}
-.card, .container {
-  max-width: 420px;
-  width: 100%;
 }
